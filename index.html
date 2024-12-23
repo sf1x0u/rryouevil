@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+
+    <!-- Inline CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            color: #5a5a5a;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>EvilShade</h1>
+    <p>Are You Evil? I guess you are haha</p>
+    <button class="button" onclick="showMessage()">Click Me!</button>
+
+    <!-- Inline JavaScript -->
+    <script>
+        function showMessage() {
+            alert("Hello, welcome to EvilShade!");
+        }
+    </script>
+</body>
+</html>
